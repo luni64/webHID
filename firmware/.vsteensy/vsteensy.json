@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "target": "vsCode",
+  "buildSystem": "makefile",
+  "useInoFile": false,
+  "debugSupport": "none",
+  "configurations": [
+    {
+      "name": "default",
+      "guid": "776d88ae-2fd3-4b42-b617-d74e6bed3f72",
+      "setupType": "expert",
+      "coreBase": "C:\\toolchain\\Teensyduino\\current_fork",
+      "compilerBase": "C:\\Arduino\\arduino-1.8.12\\hardware\\tools\\arm",
+      "makefileExtension": null,
+      "copyCore": false,
+      "sharedLibraries": [],
+      "projectLibraries": [],
+      "board": {
+        "name": "Teensy 3.2 / 3.1",
+        "options": {
+          "USB Type": "Raw HID",
+          "CPU Speed": "96 MHz (overclock)",
+          "Optimize": "Faster",
+          "Keyboard Layout": "US English"
+        }
+      }
+    }
+  ]
+}
