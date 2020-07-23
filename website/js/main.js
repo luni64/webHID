@@ -19,8 +19,7 @@ function handleInputReport(e) {
 
 function toggleLED()
 {
-    outputReport[0] = 0xAA;   // send a report with some data to the Teensy
-    outputReport[1] = 0x55;
+    outputReport[0] = 0xAA;   // send a report with some data to the Teensy   
     device.sendReport(outputReportId,outputReport);
 }
 
